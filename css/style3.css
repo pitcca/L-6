@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 1070px;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 468px;
+    
+}
+.registration__logo{
+    height: 125px;
+}
+.registration__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.registration__header{
+    
+    width: 468px;
+    height: 64px;
+    background: #F1E8D9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: 36px 0px;
+}
+.registration__text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    color: #0D0D0C;
+}
+.text1{
+    font-weight: 300;
+    font-size: 18px;
+}
+.registration__forms{
+    width: 368px;
+    height: 420px;
+    background: rgba(221, 183, 113, 0.22);
+    border-radius: 5px;
+    padding: 50px;
+}
+.registration__text-wrap{
+    width: 360px;
+    height: 40px;
+}
+.text2{
+
+    color: #0F0F0F;
+}
+.registration__form__input{
+    
+    width: 360px;
+    height: 51px;
+    background: #FFFFFF;
+    border-radius: 60px;
+    
+}
+.registration__form__btn{
+    width: 240px;
+    height: 51px;
+    background: #08A045;
+    border-radius: 60px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+.registration__form__input_one{
+    margin-bottom: 20px;
+}
+.registration__form__input_two{
+    margin-bottom: 35px;
+}
+.mail{
+    margin-bottom: 60px;
+}
+.registration__form__btn__wrap{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.registrarion__form__signup{
+    display: flex;
+    
+}
+.registration__form__text{
+    margin-left: 50px;
+    margin-top: 40px;
+    color: rgba(15, 15, 15, 0.71);
+
+}
+.all-miracle::before{
+    content: url(../img/Arrow\ 1.svg);
+    margin-right: 5px;
+    display: block;
+}
+.registration__form_pass{
+    margin: 0px;
+}
+.registration__form__polit{
+    margin: 95px 0px 116px 0px ;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 18px;
+}

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+    list-style: none;
+    
+    color: #FFFFFF;    
+}
+
+@font-face{  
+    font-family:'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');}
+
+.all{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+
+}
+
+
+.all__title{
+    padding-bottom: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+
+.all__info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 80px;
+}
+
+.all__block{
+    display: flex;
+    flex-direction: column;
+    width: 622px;
+    height: 439px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin-left: 64px;
+
+}
+
+.all__block__title{
+    padding-top: 64px;
+    padding-left: 64px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    padding-bottom: 61px;
+}
+
+.all__inputs{
+display: flex;
+flex-direction: column;
+padding-left: 64px;
+padding-right: 64px;
+
+
+}
+
+.all__line__input{
+    display: flex;
+
+}
+
+.all__input{
+    background: #FFFFFF;
+    border: 1px solid rgba(187, 183, 183, 0.5);
+    margin-right: 20px;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 24px;
+
+}
+
+.short{
+    width: 250px;
+   
+}
+
+.all__button__posision{
+
+}
+
+.all__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #18A0FB;
+    border-radius: 6px;
+    height: 40px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.all__button:hover{
+    background-color: #096daf;
+}
+
